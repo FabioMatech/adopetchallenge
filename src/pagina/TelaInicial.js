@@ -11,7 +11,7 @@ export const ImgCao = styled.img`
 export const TelaInicial = () => (
    
    <WrapperTelaInicial>
-        <Logo src="./imagens/logobranco.png" alt="Logo da Adopet" />
+        <Logo src="../public/imagens/logobranco.png" alt="Logo da Adopet" />
        <Titulo primary>Boas-Vindas!</Titulo>
        <Texto primary>
             Que tal mudar sua vida adotando seu novo melhor amigo ?
@@ -23,7 +23,7 @@ export const TelaInicial = () => (
         <Botao href="/cadastro">
             Quero me cadastrar
         </Botao>
-        <ImgCao src="./imagens/ilustracao.png" alt="Cãozinho" />
+        <ImgCao src="../public/imagens/ilustracao.png" alt="Cãozinho" />
     </WrapperTelaInicial>
 
 )
