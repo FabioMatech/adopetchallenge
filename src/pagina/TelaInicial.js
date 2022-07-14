@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { WrapperTelaInicial, Logo, Titulo, Texto} from "../estilos/Conteudo"
 import { Botao } from "../componentes/elementos/botao"
 import ilustracao from '../imagens/ilustracao.png'
-import logobranco from '../imagens/fundobranco.png'
+import logobranco from '../imagens/logobranco.png'
 
 export const ImgCao = styled.img`
     position: absolute;
