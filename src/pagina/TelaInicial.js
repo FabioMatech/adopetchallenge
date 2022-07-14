@@ -4,10 +4,14 @@ import { Botao } from "../componentes/elementos/botao"
 import ilustracao from '../imagens/ilustracao.png'
 import logobranco from '../imagens/logobranco.png'
 
+
+ 
 export const ImgCao = styled.img`
+    height: 30%;
     position: absolute;
-    bottom: 2em;
-    height: 32%;
+    bottom: 5em;
+
+
     `
 
 export const TelaInicial = () => (
@@ -25,7 +29,11 @@ export const TelaInicial = () => (
         <Botao href="/cadastro">
             Quero me cadastrar
         </Botao>
+       
+      
         <ImgCao src={ilustracao} alt="Cãozinho" />
+      
+   
     </WrapperTelaInicial>
 
 )

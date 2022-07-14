@@ -1,11 +1,13 @@
 import styled from "styled-components"
+import logobranco from "../../imagens/logobranco.png"
 
 const WrapperHeader = styled.header`
-    padding-top: 2.5em;
-    padding-bottom: 4.5em;
+   min-height: 14vh;
+   padding-top: 2.5em;
+
     
     @media(min-width: 390px)  {
-        background-image: url(./imagens/logobranco.png);
+        background-image: url(${logobranco});
         background-repeat: no-repeat;
         background-size: 7%;
         background-position: 1.5em;

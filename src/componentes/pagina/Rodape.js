@@ -1,12 +1,13 @@
 import styled from "styled-components"
 
 const Footer = styled.footer`
-    padding: 2em;
+    min-height: 12vh;
     background-color: #36D6AD;
     font-size: 1em;
 ;
 `
 const Texto = styled.p`
+    padding: 2em;
     text-align: center;
     color: white;
 `
