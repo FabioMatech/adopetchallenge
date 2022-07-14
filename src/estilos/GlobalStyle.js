@@ -6,7 +6,10 @@ export const Globalstyle = createGlobalStyle`
 export const Pagina = styled.body`
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url(./imagens/backgroundheader.png);
+  background-repeat: no-repeat;
+  background-position: top leftxxx  ;
   
 `
 

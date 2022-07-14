@@ -1,4 +1,37 @@
-export const Cabecalho = () => (
-    <p>Este é o cabeçalho</p>
+import styled from "styled-components"
 
+const WrapperHeader = styled.header`
+    padding-top: 2.5em;
+    padding-bottom: 4.5em;
+    
+    @media(min-width: 390px)  {
+        background-image: url(./imagens/logobranco.png);
+        background-repeat: no-repeat;
+        background-size: 6%;
+        background-position: 2em;
+        
+    }
+    
+`
+const ImgCasa = styled.a`
+    padding-left: 2em;
+    @media(min-width: 390px)  {
+        padding-left: 8.5em;
+    }
+`
+
+const ImgMensagem = styled.a`
+     padding-left: 2em;
+`
+
+export const Cabecalho = () => (
+    <WrapperHeader>
+        <ImgCasa href="/">
+            <img src="./imagens/casa.png" alt="Botão tela inicial" />
+        </ImgCasa>
+        <ImgMensagem href="/mensagem">
+            <img src="./imagens/mensagens.png" alt="Botão tela mensagem" />
+        </ImgMensagem>
+
+    </WrapperHeader>
 )
