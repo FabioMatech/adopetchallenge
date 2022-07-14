@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { WrapperTelaInicial, Logo, Titulo, Texto} from "../estilos/Conteudo"
 import { Botao } from "../componentes/elementos/botao"
+import ilustracao from '../imagens/ilustracao.png'
 
 
 export const ImgCao = styled.img`
@@ -24,7 +25,7 @@ export const TelaInicial = () => (
         <Botao href="/cadastro">
             Quero me cadastrar
         </Botao>
-        <ImgCao src="/imagens/ilustracao.png" alt="Cãozinho" />
+        <ImgCao src={ilustracao} alt="Cãozinho" />
     </WrapperTelaInicial>
 
 )
