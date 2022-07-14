@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { WrapperTelaInicial, Logo, Titulo, Texto} from "../estilos/Conteudo"
 import { Botao } from "../componentes/elementos/botao"
 import ilustracao from '../imagens/ilustracao.png'
-
+import logobranco from '../imagens/fundobranco.png'
 
 export const ImgCao = styled.img`
     position: absolute;
@@ -13,7 +13,7 @@ export const ImgCao = styled.img`
 export const TelaInicial = () => (
    
    <WrapperTelaInicial>
-        <Logo src="/imagens/logobranco.png" alt="Logo da Adopet" />
+        <Logo src={logobranco} alt="Logo da Adopet" />
        <Titulo primary>Boas-Vindas!</Titulo>
        <Texto primary>
             Que tal mudar sua vida adotando seu novo melhor amigo ?
