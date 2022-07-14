@@ -9,7 +9,7 @@ export const Conteudo = () => (
     <BrowserRouter>
         <Routes>
             <Route>
-                <Route path="/" element={<TelaInicial />}/>
+                <Route path="/" element={<TelaInicial />} />
                 <Route path="/cadastro" element={<Cadastro />}/>
                 <Route path="/login" element={<Login />}/>
                 <Route path="/perfil" element={<Perfil />}/>

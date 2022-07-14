@@ -7,8 +7,9 @@ const WrapperHeader = styled.header`
     @media(min-width: 390px)  {
         background-image: url(./imagens/logobranco.png);
         background-repeat: no-repeat;
-        background-size: 6%;
-        background-position: 2em;
+        background-size: 7%;
+        background-position: 1.5em;
+        background-position-y: 2.8em;
         
     }
     
