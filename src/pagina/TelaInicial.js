@@ -6,7 +6,7 @@ import ilustracao from '../imagens/ilustracao.png'
 
 export const ImgCao = styled.img`
     position: absolute;
-    bottom: 3.5em;
+    bottom: 2em;
     height: 32%;
     `
 
