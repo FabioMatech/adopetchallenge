@@ -1,32 +1,14 @@
 import { WrapperConteudo, Logo,Texto } from "../estilos/Conteudo";
 import { Botao } from "../componentes/elementos/botao";
 import logoazul from "../imagens/logoazul.png"
-import styled from "styled-components";
+import { Formulario, Label, Input} from "../componentes/elementos/Formulario";
 
-const Formulario = styled.form`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    color: #737380;
-    `
-const Label = styled.label`
-    padding: 0.5em;
-`
-
-const Input = styled.input`
-   padding: 10px;
-   border-color: #3772FF;
-   width: 20em;
-    &::placeholder{
-        padding:0.5em;
-        text-align: center;
-    }
-`
+import { Patas } from "../componentes/elementos/PatasTopo";
+import PatasFundo from '../imagens/Patas.png'
 
 export const Cadastro = () => (
     <WrapperConteudo>
+        <Patas src={PatasFundo} alt="Patas de cães"/>
         <Logo src={logoazul} alt="Logo da Adopet" />
        <Texto>
             Ainda não tem cadastro?
