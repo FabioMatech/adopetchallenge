@@ -29,12 +29,12 @@ export const WrapperConteudo = styled.main`
    `
 
 export const Logo = styled.img`
-    padding-bottom: 1.5em;
     text-align: center;
     width: 200px;
     
 `
 export const Titulo = styled.h1`
+    padding-top: 1em;
     font-size: 1.5em;
     color: ${(props) => (props.primary ? "#FFF": "#3772FF")}; 
 ` 
