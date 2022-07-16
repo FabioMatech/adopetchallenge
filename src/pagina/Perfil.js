@@ -3,6 +3,7 @@ import Cachorro from "../imagens/cachorro.jpg"
 import { FormularioPerfil, WrapperPerfil,  
         InputPerfil, TituloFormulario, LabelPerfil, InputImg, TextoPerfil,
         } from "../componentes/elementos/FormularioPerfil";
+import {WrapperBotao, BotaoFormulario } from '../componentes/elementos/BotaoFormulario'
 
 const CreditoImagem = styled.p`
     text-align: right;
@@ -14,25 +15,7 @@ const CliqueFoto = styled.p`
     text-align: center;
     padding-top: 0.5em;
 `
-const WrapperBotao = styled.div`
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 2em;
-`
 
-
-const BotaoFormulario = styled.button`
-     border-radius: 3px;
-     padding: 0.5rem 0;
-     margin: 0.5rem 1rem;
-     width: 11rem;
-     background: #FC7071 ;
-     color: white;
-     border: 2px solid #3772FF;
-     margin: auto;
-     
-`
 
 export const Perfil = () => (
     <WrapperPerfil>
@@ -68,12 +51,7 @@ export const Perfil = () => (
         </FormularioPerfil>   
        
       
-       
-       
-     
-   
-    </WrapperPerfil>    
-       
+    </WrapperPerfil>          
        
        
 )

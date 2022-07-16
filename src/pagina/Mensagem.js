@@ -1,12 +1,12 @@
 import { FormularioPerfil, WrapperPerfil,  
-        InputPerfil,  LabelPerfil, TextoPerfil,
-        WrapperBotao, BotaoPerfil} from "../componentes/elementos/FormularioPerfil";
+        InputPerfil,  LabelPerfil, TextoPerfil} from "../componentes/elementos/FormularioPerfil";
+import {WrapperBotao, BotaoFormulario } from '../componentes/elementos/BotaoFormulario'
 
 import styled from 'styled-components'
 
 const FormularioMensagem = styled(FormularioPerfil)`
 
-    width: 80%;`
+    width: 70%;`
 
 export const Mensagem = () => (
     <WrapperPerfil>
@@ -35,15 +35,13 @@ export const Mensagem = () => (
         <LabelPerfil for="nomedoanimal">Nome do animal </LabelPerfil>
         <InputPerfil type="textarea" id="nomedoanimal" name="nomedoanimal" placeholder="Escreva sua mensagem." />
        
-        
+        <WrapperBotao>
+         <BotaoFormulario type="submit" value="Click Me" >Salvar</BotaoFormulario>
+         </WrapperBotao>
         
         
         </FormularioMensagem>   
-       <WrapperBotao>
-        <BotaoPerfil href="/Home">
-          Enviar  
-        </BotaoPerfil>
-        </WrapperBotao>
+
        
        
      
