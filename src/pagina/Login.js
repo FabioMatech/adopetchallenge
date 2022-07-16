@@ -1,7 +1,7 @@
 import { WrapperConteudo, Logo,Texto } from "../estilos/Conteudo";
-import { Botao } from "../componentes/elementos/botao";
 import Logoazul from "../imagens/logoazul.png"
 import { Formulario, Label, Input} from "../componentes/elementos/Formulario";
+import {WrapperBotao, BotaoFormulario } from '../componentes/elementos/BotaoFormulario';
 
 import { Patas } from "../componentes/elementos/PatasTopo";
 import PatasFundo from '../imagens/Patas.png'
@@ -23,14 +23,13 @@ export const Login = () => (
         
         <Label for="senha">Senha </Label>
         <Input type="senha" id="senha" name="senha" placeholder="Crie uma senha" />
-        
+       
+        <WrapperBotao>
+         <BotaoFormulario type="submit" value="Click Me" >Cadastrar</BotaoFormulario>
+        </WrapperBotao>
 
         </Formulario>   
-       
-       
-        <Botao href="/cadastro">
-           Entrar   
-        </Botao>
+
      
    
     </WrapperConteudo>    

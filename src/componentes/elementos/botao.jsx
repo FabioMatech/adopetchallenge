@@ -9,8 +9,10 @@ export const Botao = styled.a`
     background: #FC7071 ;
     color: white;
     border: 2px solid #3772FF;
+    text-decoration: none;
 
     &:hover{
+        color:yellow;
         background:FF9D9E;
     }
 
