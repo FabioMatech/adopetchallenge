@@ -41,7 +41,7 @@ export const Titulo = styled.h1`
 
 export const Texto = styled.p`
     text-align: center;
-    color: ${(props) => (props.primary ? "#FFF": "#3772FF")};
+    color: ${(props) => (props.primarycolor ? "#FFF": "#3772FF")};
     padding: ${(props) => (props.primary ? "1.5em 3em":"1.5em 2em")};
 `
 

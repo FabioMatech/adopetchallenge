@@ -19,7 +19,7 @@ export const TelaInicial = () => (
    <WrapperTelaInicial>
         <Logo src={logobranco} alt="Logo da Adopet" />
        <Titulo primary>Boas-Vindas!</Titulo>
-       <Texto primary>
+       <Texto primary primarycolor>
             Que tal mudar sua vida adotando seu novo melhor amigo ?
             Vem com a gente.
         </Texto>
