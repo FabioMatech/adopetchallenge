@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { Cadastro } from "../pagina/Cadastro"
 import { Home } from "../pagina/Home"
 import { Login } from "../pagina/Login"
+import { Mensagem } from "../pagina/Mensagem"
 import { Perfil } from "../pagina/Perfil"
 import { TelaInicial } from "../pagina/TelaInicial"
 
@@ -14,6 +15,7 @@ export const Conteudo = () => (
                 <Route path="/login" element={<Login />}/>
                 <Route path="/perfil" element={<Perfil />}/>
                 <Route path="/home" element={<Home />}/>
+                <Route path="/mensagem" element={<Mensagem />}/>
             </Route>
         </Routes>
     </BrowserRouter>
