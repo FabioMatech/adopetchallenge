@@ -4,7 +4,7 @@ export const Globalstyle = createGlobalStyle`
 
 ` 
 export const Pagina = styled.body`
-  min-height: 99vh;
+  min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
   display: flex;  

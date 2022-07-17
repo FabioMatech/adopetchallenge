@@ -6,30 +6,32 @@ import Dunga from '../imagens/Dunga.png';
 
 import {Message2} from "@styled-icons/remix-line/Message2"
 
-
+const WrapperPagina = styled.div`
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+`
 const WrapperConteudo = styled.div`
     display: flex;
     flex-direction: column;
     margin: auto;
+    @media(min-width: 390px){
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    };    
 
 `
 const WrapperCards = styled.div`
     display: flex;
-    padding: 0.5em;
-    margin: 1em;
+    padding: 0.2em;
+    margin: 0.5em;
     flex-direction: column;
     background-color: #F6F6F6;
- ;
+    
     
 
-    @media(min-width: 390px){
-        display:grid;
-        grid-template-rows: 1fr 1fr;
-    }
-    @media(min-width: 700px){
-        display:grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
+   
 `
 const Card = styled.div`
     display: flex;
@@ -61,27 +63,58 @@ const Localizacao = styled(Descricao)`
 
 const IconeMensagem = styled(Message2)`
     color: blue;
+    height:15%;
+    width: 15%;
 `
 export const Home = () => (
-    <WrapperConteudo>
-        <Texto>
+<WrapperPagina>
+     <Texto>
         Olá! Veja os amigos disponíveis para adoção!
         </ Texto>
+    <WrapperConteudo>
+       
 
     <WrapperCards>
-        <Card>
-            <Animal src={Dunga} alt="Cãozinho Dunga" />
-            <FichaTecnica>
-            <Titulo >Dunga </ Titulo>
-            <Descricao  >2 anos </ Descricao>
-            <Descricao>Porte pequeno</ Descricao>
-            <Descricao> Calmo e educado </ Descricao>
-            <Localizacao>Rio de Janeiro</Localizacao>
-            <IconeMensagem /> <Descricao>Falar com responsável</Descricao>
+            <Card>
+                <Animal src={Dunga} alt="Cãozinho Dunga" />
+                <FichaTecnica>
+                    <Titulo >Dunga </ Titulo>
+                    <Descricao  >2 anos </ Descricao>
+                    <Descricao>Porte pequeno</ Descricao>
+                    <Descricao> Calmo e educado </ Descricao>
+                    <Localizacao>Rio de Janeiro</Localizacao>
+                    <IconeMensagem /> <Descricao>Falar com responsável</Descricao>
+                </FichaTecnica>
+            </Card>
+    </ WrapperCards>
 
-            </FichaTecnica>
-        </Card>
+
+    <WrapperCards>
+            <Card>
+                <Animal src={Dunga} alt="Cãozinho Dunga" />
+                <FichaTecnica>
+                    <Titulo >Dunga </ Titulo>
+                    <Descricao  >2 anos </ Descricao>
+                    <Descricao>Porte pequeno</ Descricao>
+                    <Descricao> Calmo e educado </ Descricao>
+                    <Localizacao>Rio de Janeiro</Localizacao>
+                    <IconeMensagem /> <Descricao>Falar com responsável</Descricao>
+                </FichaTecnica>
+            </Card>
+    </ WrapperCards>
+    <WrapperCards>
+            <Card>
+                <Animal src={Dunga} alt="Cãozinho Dunga" />
+                <FichaTecnica>
+                    <Titulo >Dunga </ Titulo>
+                    <Descricao  >2 anos </ Descricao>
+                    <Descricao>Porte pequeno</ Descricao>
+                    <Descricao> Calmo e educado </ Descricao>
+                    <Localizacao>Rio de Janeiro</Localizacao>
+                    <IconeMensagem /> <Descricao>Falar com responsável</Descricao>
+                </FichaTecnica>
+            </Card>
     </ WrapperCards>
     </ WrapperConteudo>
-
+</WrapperPagina>
 )
