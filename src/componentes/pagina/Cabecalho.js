@@ -28,7 +28,7 @@ const ImgMensagem = styled.a`
 
 export const Cabecalho = () => (
     <WrapperHeader>
-        <ImgCasa href="/">
+        <ImgCasa href="/home">
             <img src="./imagens/casa.png" alt="Botão tela inicial" />
         </ImgCasa>
         <ImgMensagem href="/mensagem">

@@ -18,25 +18,21 @@ import {Message2} from "@styled-icons/remix-line/Message2"
 const WrapperPagina = styled.div`
      display: flex;
      flex-direction: column;
-
+     
 `
 const WrapperConteudo = styled.div`
     display: flex;
-    flex-direction: column;
     flex-direction: row;
     flex-wrap: wrap;
-        
+    margin: 1em;
+    
 `
-const WrapperCards = styled.div`
-    display: flex;   
-    margin: 0.4em;
-    flex-direction: row;
-    flex-wrap: wrap;
+const WrapperCards = styled.div`    
+    margin: auto;
+    width: 400px;
     background-color: #F6F6F6;    
 
-    @media(min-width: 770px){
-        width: 30%;
-    }
+   
     
     
 
@@ -59,12 +55,12 @@ const Titulo = styled.h1`
     font-weight: 600;
     color: #3772FF;
     padding: 0.5em ;
-
     text-align: left;
 `
 
 const Descricao = styled.p`
     color: #737380;
+    padding-left:0.2;
   
 `
 const FalarComDono = styled.a`
