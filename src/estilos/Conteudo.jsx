@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const WrapperTelaInicial = styled.main`
-   min-height: 68vh;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -11,7 +10,6 @@ export const WrapperTelaInicial = styled.main`
    text-align: center;`
 
 export const WrapperConteudo = styled.main`
-   min-height: 69vh;
    display: flex;
    flex-direction: column;
    align-items: center;
