@@ -7,16 +7,20 @@ import logobranco from '../imagens/logobranco.png'
 
 
 const WrapperImg = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: left;
+    display: relative;
+
+
 `
 
 
 const ImgCao = styled.img`
     position: absolute;
+    align-self: center;
     bottom: 2.8em;
     height: 16em;
+   
+
+       
 
 
     `
