@@ -6,8 +6,14 @@ import logobranco from '../imagens/logobranco.png'
 
 
 
- 
-export const ImgCao = styled.img`
+const WrapperImg = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+`
+
+
+const ImgCao = styled.img`
     position: absolute;
     bottom: 2.8em;
     height: 16em;
@@ -31,9 +37,9 @@ export const TelaInicial = () => (
             Quero me cadastrar
         </Botao>
        
-      
+        <WrapperImg>
         <ImgCao src={ilustracao} alt="Cãozinho" />
-      
+        </WrapperImg>
    
     </WrapperTelaInicial>
 
