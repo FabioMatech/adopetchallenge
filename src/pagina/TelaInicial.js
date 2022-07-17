@@ -7,9 +7,8 @@ import styled from 'styled-components'
 
 
 const ImgCao = styled.img`  
-   position: absolute;
-   top:25em;
-   height: 10em;
+   float: bottom;
+   
 `
 const WrapperBotao = styled.div`
     padding-bottom: 0.2em;
