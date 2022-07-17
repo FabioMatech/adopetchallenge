@@ -4,7 +4,7 @@ export const WrapperTelaInicial = styled.main`
    display: flex;
    flex-direction: column;
    align-items: center;
-   background-image: url(./imagens/fundoconteudoinicial.png);
+   
    background-repeat: no-repeat;
    background-position: right;
    text-align: center;`
