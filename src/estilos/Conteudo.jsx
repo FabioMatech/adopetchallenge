@@ -51,7 +51,7 @@ export const Texto = styled.p`
     padding: ${(props) => (props.primary ? "2em 3em":"1.5em 2em")};
     font-size: 1.5em;
     white-space: 1em;
-    padding: 1em;
+    padding: 2em;
 
 `
 
