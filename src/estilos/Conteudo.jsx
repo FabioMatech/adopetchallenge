@@ -4,10 +4,10 @@ export const WrapperTelaInicial = styled.main`
    display: flex;
    flex-direction: column;
    align-items: center;
+   text-align: center;
+   margin-top: 4em;
    
-   background-repeat: no-repeat;
-   background-position: right;
-   text-align: center;`
+` 
 
 export const WrapperConteudo = styled.main`
    display: flex;
@@ -32,7 +32,7 @@ export const Logo = styled.img`
     
 `
 export const Titulo = styled.h1`
-    padding-top: 1em;
+    padding-top: 0.5em;
     font-size: 1.5em;
     color: ${(props) => (props.primary ? "#FFF": "#3772FF")}; 
 ` 
