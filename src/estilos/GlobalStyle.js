@@ -16,7 +16,7 @@ export const Pagina = styled.body`
   background-color:${(color) => (window.location.pathname === "/" ? "#3772FF":"#FFF")};
   
 `
-export const BoxRodadpe = styled.footer`
+export const BoxConteudo = styled.main`
   flex-grow: 1;
 `
 
