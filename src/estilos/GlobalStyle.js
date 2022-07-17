@@ -15,18 +15,13 @@ export const Pagina = styled.body`
   background-color:${(color) => (window.location.pathname === "/" ? "#3772FF":"#FFF")};
   
 `
-export const BoxCabecalho = styled.div`
-  flex-grow:1;
-`
 
 
 export const BoxConteudo = styled.div`
-  flex-grow: 2;
-`
-
-export const BoxRodape = styled.div`
   flex-grow: 1;
 `
+
+
 
 
 

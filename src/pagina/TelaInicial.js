@@ -11,6 +11,10 @@ const ImgCao = styled.img`
    
 `
 
+const Espaco = styled.div`
+    padding: 5em;
+`
+
 
 const Footer = styled.footer`
     float: bottom;
@@ -18,11 +22,6 @@ const Footer = styled.footer`
     font-size: 1em;
     width: 100%;
 ;
-`
-const TextoRodape = styled.p`
-    padding: 1.5em;
-    text-align: center;
-    color: white;
 `
 
 
@@ -42,12 +41,10 @@ export const TelaInicial = () => (
         <Botao href="/cadastro">
             Quero me cadastrar
         </Botao>
-     
+     <Espaco></Espaco>
     <Footer>
        <ImgCao src={Ilustracao} alt="Caozinho" className='imgcachorro'  />
-       <TextoRodape>
-         2022 - Feito por Fabio
-        </TextoRodape>
+       
    </Footer>
     </WrapperTelaInicial>
 
