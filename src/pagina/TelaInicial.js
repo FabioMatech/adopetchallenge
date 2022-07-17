@@ -10,9 +10,16 @@ const ImgCao = styled.img`
    float: bottom;
    
 `
-const WrapperBotao = styled.div`
-    padding-bottom: 0.2em;
+
+
+const Footer = styled.footer`
+    background-image: linear-gradient(#3772FF,#36D6AD);
+    font-size: 1em;
+    width: 100%;
+;
 `
+
+
 
 
 export const TelaInicial = () => (
@@ -24,19 +31,17 @@ export const TelaInicial = () => (
             Que tal mudar sua vida adotando seu novo melhor amigo ?
             Vem com a gente.
         </Texto>
-        <WrapperBotao>
+     
         <Botao href="/login">
             Já tenho conta
         </Botao>
         <Botao href="/cadastro">
             Quero me cadastrar
         </Botao>
-       </WrapperBotao>
      
-   
-
+    <Footer>
        <ImgCao src={Ilustracao} alt="Caozinho" className='imgcachorro'  />
-
+   </Footer>
     </WrapperTelaInicial>
 
 )
