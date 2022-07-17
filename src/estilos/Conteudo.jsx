@@ -28,19 +28,30 @@ export const WrapperConteudo = styled.main`
 
 export const Logo = styled.img`
     text-align: center;
-    width: 200px;
+    width: 16em;
+
+
+    padding-top: 1.5em;
+    padding-bottom: 1em;
     
 `
 export const Titulo = styled.h1`
     padding-top: 0.5em;
-    font-size: 1.5em;
+   
+   
+    font-size: 2em;
     color: ${(props) => (props.primary ? "#FFF": "#3772FF")}; 
+
+
 ` 
 
 export const Texto = styled.p`
     text-align: center;
     color: ${(props) => (props.primarycolor ? "#FFF": "#3772FF")};
-    padding: ${(props) => (props.primary ? "1.5em 3em":"1.5em 2em")};
+    padding: ${(props) => (props.primary ? "2em 3em":"1.5em 2em")};
+    font-size: 1,5em;
+    white-space: 1em;
+
 `
 
   
