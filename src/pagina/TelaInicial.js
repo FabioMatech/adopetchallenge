@@ -1,29 +1,11 @@
-import styled from "styled-components"
+import '../estilos/imagemcachorrotelainicial.css'
 import { WrapperTelaInicial, Logo, Titulo, Texto} from "../estilos/Conteudo"
 import { Botao } from "../componentes/elementos/botao"
-import ilustracao from '../imagens/ilustracao.png'
+import Ilustracao from '../imagens/ilustracao.png'
 import logobranco from '../imagens/logobranco.png'
 
 
 
-const WrapperImg = styled.div`
-    display: relative;
-
-
-`
-
-
-const ImgCao = styled.img`
-    position: absolute;
-    align-self: center;
-    bottom: 2.8em;
-    height: 16em;
-   
-
-       
-
-
-    `
 
 export const TelaInicial = () => (
    
@@ -40,10 +22,7 @@ export const TelaInicial = () => (
         <Botao href="/cadastro">
             Quero me cadastrar
         </Botao>
-       
-        <WrapperImg>
-        <ImgCao src={ilustracao} alt="Cãozinho" />
-        </WrapperImg>
+       <img src={Ilustracao} alt="Caozinho" className='imgcachorro'  />
    
     </WrapperTelaInicial>
 
