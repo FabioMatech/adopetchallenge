@@ -12,7 +12,7 @@ const ImgCao = styled.img`
 `
 
 const Espaco = styled.div`
-    padding: 2.2em;
+    padding: 2.4em;
 `
 
 
