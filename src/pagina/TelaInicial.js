@@ -8,9 +8,9 @@ import logobranco from '../imagens/logobranco.png'
 
  
 export const ImgCao = styled.img`
-    height: 30%;
     position: absolute;
     bottom: 2.8em;
+    height: 16em;
 
 
     `
