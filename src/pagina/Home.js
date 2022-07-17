@@ -28,7 +28,7 @@ const WrapperConteudo = styled.div`
     
 `
 const WrapperCards = styled.div`    
-    margin: auto;
+    margin: 0.5em auto ;
     width: 400px;
     background-color: #F6F6F6;    
 
@@ -76,7 +76,7 @@ const FalarComDono = styled.a`
 
 const DescricaoDono = styled.p`
     color: #737380;
-    font-size: 0.75em;
+    font-size: 1    em;
 `
 const Localizacao = styled(Descricao)`
     padding-top: 1.5em;
