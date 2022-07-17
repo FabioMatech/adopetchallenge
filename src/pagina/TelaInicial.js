@@ -13,6 +13,7 @@ const ImgCao = styled.img`
 
 
 const Footer = styled.footer`
+    float: bottom;
     background-image: linear-gradient(#3772FF,#36D6AD);
     font-size: 1em;
     width: 100%;
