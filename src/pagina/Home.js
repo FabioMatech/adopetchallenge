@@ -23,15 +23,9 @@ const WrapperPagina = styled.div`
 const WrapperConteudo = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
-    @media(min-width: 390px){
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
         
-        
-    };    
-
 `
 const WrapperCards = styled.div`
     display: flex;   
@@ -86,7 +80,7 @@ const FalarComDono = styled.a`
 
 const DescricaoDono = styled.p`
     color: #737380;
-    font-size: 1em;
+    font-size: 0.75em;
 `
 const Localizacao = styled(Descricao)`
     padding-top: 1.5em;
@@ -94,8 +88,8 @@ const Localizacao = styled(Descricao)`
 
 const IconeMensagem = styled(Message2)`
     color: blue;
-    height:8%;
-    width: 8%;
+    height:7%;
+    width: 7%;
 `
 export const Home = () => (
 <WrapperPagina>

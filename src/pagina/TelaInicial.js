@@ -13,12 +13,15 @@ const ImgCao = styled.img`
 
 const Espaco = styled.div`
     padding: 2.4em;
+    @media(min-width: 770px) {
+        padding:0.5px;
+    }
 `
 
 
 const Footer = styled.footer`
     float: bottom;
-    background-image: linear-gradient(#3772FF,#36D6AD);
+    background-image: linear-gradient(transparent,#36D6AD);
     font-size: 1em;
     width: 100%;
 ;

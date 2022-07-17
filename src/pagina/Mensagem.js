@@ -8,6 +8,15 @@ const FormularioMensagem = styled(FormularioPerfil)`
 
     width: 70%;`
 
+const InputTextArea = styled.input`
+    padding: 10px;
+    padding-top: 2em;
+    line-height: 2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+`
+
 export const Mensagem = () => (
     <WrapperPerfil>
       
@@ -32,8 +41,9 @@ export const Mensagem = () => (
         <LabelPerfil for="nomedoanimal">Nome do animal </LabelPerfil>
         <InputPerfil type="text" id="nomedoanimal" name="nomedoanimal" placeholder="Por qual animal você se interessou?" />
 
-        <LabelPerfil for="nomedoanimal">Nome do animal </LabelPerfil>
-        <InputPerfil type="textarea" id="nomedoanimal" name="nomedoanimal" placeholder="Escreva sua mensagem." />
+        <LabelPerfil for="nomedoanimal">Mensagem </LabelPerfil>
+        <InputTextArea type="textarea" id="nomedoanimal" name="nomedoanimal" 
+         rows="5" cols="33" placeholder="Escreva sua mensagem." />
        
         <WrapperBotao>
          <BotaoFormulario type="submit" value="Click Me" >Salvar</BotaoFormulario>

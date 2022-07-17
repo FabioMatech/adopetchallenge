@@ -3,7 +3,7 @@ import styled, { createGlobalStyle } from "styled-components";
 export const Globalstyle = createGlobalStyle`
 
 ` 
-export const Pagina = styled.body`
+export const Pagina = styled.div`
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   font-size: 1em;

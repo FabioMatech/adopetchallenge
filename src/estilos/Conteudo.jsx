@@ -6,6 +6,10 @@ export const WrapperTelaInicial = styled.main`
    align-items: center;
    text-align: center;
    margin-top: 4em;
+   background-image: url('./imagens/fundoconteudoinicial.png');
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 5em;
    
 ` 
 
@@ -28,17 +32,14 @@ export const WrapperConteudo = styled.main`
 
 export const Logo = styled.img`
     text-align: center;
-    width: 16em;
-
-
-    padding-top: 1.5em;
+    width: 14em;        
     padding-bottom: 1em;
+
+    
     
 `
 export const Titulo = styled.h1`
-    padding-top: 0.5em;
-   
-   
+    padding-top: 0.5em;   
     font-size: 2em;
     color: ${(props) => (props.primary ? "#FFF": "#3772FF")}; 
 
@@ -51,6 +52,7 @@ export const Texto = styled.p`
     padding: ${(props) => (props.primary ? "2em 5em":"1.5em 2em")};
     font-size: 1em;
     white-space: 1em;
+    padding: 2em 3em;
    
 
 
