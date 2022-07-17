@@ -18,26 +18,31 @@ import {Message2} from "@styled-icons/remix-line/Message2"
 const WrapperPagina = styled.div`
      display: flex;
      flex-direction: column;
-     margin: auto;
+
 `
 const WrapperConteudo = styled.div`
     display: flex;
     flex-direction: column;
-    margin: auto;
     align-items: center;
     @media(min-width: 390px){
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
+        
+        
     };    
 
 `
 const WrapperCards = styled.div`
-    display: flex;
-   
-    margin: 0.2em;
-    flex-direction: column;
-    background-color: #F6F6F6;
+    display: flex;   
+    margin: 0.4em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;    
+
+    @media(min-width: 770px){
+        width: 30%;
+    }
     
     
 
@@ -59,14 +64,14 @@ const Titulo = styled.h1`
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: #3772FF;
-    padding: 0.5em 1em;
+    padding: 0.5em ;
 
     text-align: left;
 `
 
 const Descricao = styled.p`
     color: #737380;
-    padding-left: 0.5em;
+  
 `
 const FalarComDono = styled.a`
     display: flex;
