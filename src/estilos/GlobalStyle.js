@@ -16,7 +16,7 @@ export const Pagina = styled.body`
   
 `
 export const BoxConteudo = styled.div`
-  flex-grow: 1;
+  flex-shrink: 0;
 `
 
 
