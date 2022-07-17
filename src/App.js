@@ -18,7 +18,7 @@ export const App = () => (
          <Conteudo />           
        </BoxConteudo>
       
-        <Rodape /> 
+  
      
     </ Pagina>
     

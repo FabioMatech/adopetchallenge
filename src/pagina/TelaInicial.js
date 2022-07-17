@@ -18,8 +18,11 @@ const Footer = styled.footer`
     width: 100%;
 ;
 `
-
-
+const TextoRodape = styled.p`
+    padding: 1.5em;
+    text-align: center;
+    color: white;
+`
 
 
 export const TelaInicial = () => (
@@ -41,6 +44,9 @@ export const TelaInicial = () => (
      
     <Footer>
        <ImgCao src={Ilustracao} alt="Caozinho" className='imgcachorro'  />
+       <TextoRodape>
+         2022 - Feito por Fabio
+        </TextoRodape>
    </Footer>
     </WrapperTelaInicial>
 
