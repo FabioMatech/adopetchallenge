@@ -37,6 +37,8 @@ const Card = styled.div`
 `
 const Animal = styled.img`
     display: inline;
+    
+    
 `
 const FichaTecnica = styled.div`
     
@@ -75,7 +77,7 @@ export const Home = () => (
             <Descricao>Porte pequeno</ Descricao>
             <Descricao> Calmo e educado </ Descricao>
             <Localizacao>Rio de Janeiro</Localizacao>
-            <Descricao><IconeMensagem />Falar com responsável</Descricao>
+            <IconeMensagem /> <Descricao>Falar com responsável</Descricao>
 
             </FichaTecnica>
         </Card>

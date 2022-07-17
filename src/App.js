@@ -1,25 +1,27 @@
 import { Cabecalho } from './componentes/pagina/Cabecalho';
 import { Conteudo } from './rotas/Route';
-import {Fragment} from 'react';
 import { Rodape } from './componentes/pagina/Rodape';
 import { BoxConteudo, Globalstyle, Pagina} from './estilos/GlobalStyle';
 
 
 export const App = () => (
 
-  <Pagina>
-    <Fragment>   
+  
+  
+    <Pagina>
       <Globalstyle />        
+       
+       
         <Cabecalho />       
          
-          <BoxConteudo>
+        <BoxConteudo>
          <Conteudo />           
        </BoxConteudo>
       
         <Rodape /> 
      
+    </ Pagina>
     
-    </Fragment>
- </Pagina>
+ 
  
  )
