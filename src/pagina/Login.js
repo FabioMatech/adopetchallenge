@@ -22,7 +22,8 @@ export const Login = () => (
         <Input type="email" id="email" name="email" placeholder="Escolha seu melhor email" />
         
         <Label for="senha">Senha </Label>
-        <Input type="senha" id="senha" name="senha" placeholder="Crie uma senha" />
+        <Input type="password" id="senha" name="senha" placeholder="Crie uma senha" />
+        
        
         <WrapperBotao>
          <BotaoFormulario type="submit" value="Click Me" >Cadastrar</BotaoFormulario>
