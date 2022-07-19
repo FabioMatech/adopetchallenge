@@ -14,22 +14,22 @@ export const Cadastro = () => (
             Ainda não tem cadastro?
             Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
         </Texto>
-        <Formulario>
+        <Formulario action="/teste.html" method="POST">
         
-        <Label for="email">Email </Label>
+        <Label htmlFor="email">Email </Label>
         <Input type="email" id="email" name="email" placeholder="Escolha seu melhor email" />
         
-        <Label for="fnome">Nome </Label>
+        <Label htmlFor="fnome">Nome </Label>
         <Input type="text" id="fnome" name="fnome" placeholder="Digite seu nome completo" />
         
-        <Label for="senha">Senha </Label>
+        <Label htmlFor="senha">Senha </Label>
         <Input type="senha" id="senha" name="senha" placeholder="Crie uma senha" />
         
-        <Label for="fnome">Confirme sua senha </Label>
-        <Input type="corfirmarsenha" id="confirmarsenha" name="confirmarsenha" placeholder="Repita a senha criada acima" />
+        <Label htmlFor="confirmarsenha">Confirme sua senha </Label>
+        <Input type="confirmarsenha" id="confirmarsenha" name="confirmarsenha" placeholder="Repita a senha criada acima" />
 
         <WrapperBotao>
-         <BotaoFormulario type="submit" value="Click Me" >Cadastrar</BotaoFormulario>
+         <BotaoFormulario type="submit" value="cadastrar" >Cadastrar</BotaoFormulario>
         </WrapperBotao>
 
         </Formulario>

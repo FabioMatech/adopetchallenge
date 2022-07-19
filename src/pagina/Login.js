@@ -18,13 +18,13 @@ export const Login = () => (
         
         <Formulario>
         
-        <Label for="email">Email </Label>
+        <Label htmlFor="email">Email </Label>
         <Input type="email" id="email" name="email" placeholder="Escolha seu melhor email" />
         
-        <Label for="senha">Senha </Label>
+        <Label htmlFor="senha">Senha </Label>
         <Input type="password" id="senha" name="senha" placeholder="Crie uma senha" />
         
-       
+        
         <WrapperBotao>
          <BotaoFormulario type="submit" value="Click Me" >Cadastrar</BotaoFormulario>
         </WrapperBotao>

@@ -24,26 +24,25 @@ export const Mensagem = () => (
         </TextoPerfil>
        
        
-        <FormularioMensagem>
-        
+        <FormularioMensagem action="http://localhost:3001/mensagemadopet" method="POST"> 
 
              
         
-        <LabelPerfil for="nome">Nome </LabelPerfil>
+        <LabelPerfil htmlFor="nome">Nome </LabelPerfil>
         <InputPerfil type="text" id="nomemensagem" name="nomemensagem" placeholder="Insira seu nome completo" />
         
-        <LabelPerfil for="telefone">Telefone </LabelPerfil>
+        <LabelPerfil htmlFor="telefone">Telefone </LabelPerfil>
         <InputPerfil type="tel" id="telefonemensagem" name="telefonemensagem" placeholder="Insira seu telefone e/ou whatsapp" />
         
-        <LabelPerfil for="nomedoanimal">Nome do animal </LabelPerfil>
+        <LabelPerfil htmlFor="nomedoanimal">Nome do animal </LabelPerfil>
         <InputPerfil type="text" id="nomedoanimal" name="nomedoanimal" placeholder="Por qual animal você se interessou?" />
 
-        <LabelPerfil for="mensagem">Mensagem </LabelPerfil>
+        <LabelPerfil htmlFor="mensagem">Mensagem </LabelPerfil>
         <InputTextArea type="textarea" id="mensagem" name="mensagem" 
          rows="5" cols="33" placeholder="Escreva sua mensagem." />
        
         <WrapperBotao>
-         <BotaoFormulario type="submit" value="Click Me" >Salvar</BotaoFormulario>
+         <BotaoFormulario type="submit" value="Salvar" >Salvar</BotaoFormulario>
          </WrapperBotao>
         
         
