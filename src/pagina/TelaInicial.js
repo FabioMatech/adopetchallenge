@@ -12,7 +12,7 @@ const ImgCao = styled.img`
 `
 
 const Espaco = styled.div`
-    padding: 2.4em;
+    padding-top: 4em;
     @media(min-width: 770px) {
         padding:0.5px;
     }
@@ -46,9 +46,9 @@ export const TelaInicial = () => (
         </Botao>
      <Espaco></Espaco>
     <Footer>
-       <ImgCao src={Ilustracao} alt="Caozinho" className='imgcachorro'  />
-       
+      <ImgCao src={Ilustracao} alt="Caozinho" className='imgcachorro'  />
    </Footer>
+   
     </WrapperTelaInicial>
 
 )

@@ -3,7 +3,7 @@ import logobranco from "../../imagens/logobranco.png"
 
 const WrapperHeader = styled.header`
    padding-top: 2.5em;
-   padding-bottom:4em;
+   padding-bottom:5.5em;
 
     @media(min-width: 390px)  {
         background-image: url(${logobranco});
