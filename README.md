@@ -37,11 +37,17 @@ No terminal de os seguintes comandos, para rodar os servidores :
 
 ## Ferramentas do challenge
 
-Página do challenge:
+Página do challenge: https://www.alura.com.br/challenges/front-end-4/semana-01-criando-site-mobile-first
 
-Figma: 
+Caso queira visualizar as demais semanas, troque número do link de 01, para:
 
-Trello::
+Semana 2: 02
+
+Semana 3 e 4: 03-04
+
+Figma: https://www.figma.com/file/TlfkDoIu8uyjZNla1T8TpH/Challenge---Adopet?node-id=518%3A11
+
+  
 
   
 
