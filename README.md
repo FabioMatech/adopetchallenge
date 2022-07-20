@@ -1,5 +1,5 @@
- <img src="./src/imagens/logoreact.png
-  " width="60" height="25" />  <img src="./src/imagens/styled-components.png " width="60" height="25" /> <img src="./src/imagens/json-server.jpg " width="60" height="25" />
+  <img src="./src/imagens/json-server.jpg " width="60" height="25" /><img src="./src/imagens/logoreact.png
+  " width="60" height="25" />  <img src="./src/imagens/styled-components.png " width="60" height="25" />
 
   <img src="./src/imagens/TelaInicial.png " width="100%" text-align="center" />
 
