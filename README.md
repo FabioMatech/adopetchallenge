@@ -1,4 +1,4 @@
- <img src="./src/imagens/logoreactJS.png
+ <img src="./src/imagens/logoreact.png
   " width="60" height="25" />  <img src="./src/imagens/styled-components.png " width="60" height="25" /> <img src="./src/imagens/json-server.jpg " width="60" height="25" />
 
   <img src="./src/imagens/TelaInicial.png " width="100%" text-align="center" />
@@ -24,14 +24,14 @@ https://adopetchallenge.vercel.app/
 
 
 
-No terminal de os seguintes comandos:
+No terminal de os seguintes comandos, para rodar os servidores :
 
 - `npm install`
 
 - `npm start`
 - `json-server --watch db.json`
 
-Para rodar os servidores 
+
 
 ## Apresentação do challenge em construção
 
