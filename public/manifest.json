@@ -9,7 +9,8 @@
     }   
   ],
   "images": [
-      {"src": "logobranco.png"}
+      {"src": "logobranco.png"},
+      {"src": "ilustracao.png"}
   ],
   "start_url": ".",
   "display": "standalone",
